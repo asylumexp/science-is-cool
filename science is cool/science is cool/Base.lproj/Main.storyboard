@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_2" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="science_is_cool" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MDS-95-3qN">
+                                <rect key="frame" x="403" y="245" width="274" height="49"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="What are the lungs?">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZD1-SW-yKe" kind="show" id="h6F-Hh-Zuk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wvM-cL-zN8">
+                                <rect key="frame" x="380" y="456" width="321" height="49"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title=" What is gas exchange? ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="s5C-OX-hhR" kind="showDetail" id="MJk-Va-ier"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bp7-kB-dzK">
+                                <rect key="frame" x="344" y="346" width="393" height="49"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title=" How does breathing occur? ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BI9-hw-asG" kind="showDetail" id="99X-ld-NEm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Respiratory System" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IQ-Gv-rAA">
+                                <rect key="frame" x="366" y="0.0" width="349" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50617834449999999" green="0.84499577859999997" blue="0.98986726999999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qde-w6-n57">
+                                <rect key="frame" x="332" y="158" width="416" height="49"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="What is the respiratory system?">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mSa-ai-Se3" kind="showDetail" id="SZX-dD-1eg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50617834449943055" green="0.84499577861720698" blue="0.98986726999282837" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MDS-95-3qN" firstAttribute="centerX" secondItem="Bp7-kB-dzK" secondAttribute="centerX" id="BH2-Vm-FJG"/>
+                            <constraint firstItem="wvM-cL-zN8" firstAttribute="top" secondItem="Bp7-kB-dzK" secondAttribute="bottom" constant="54" id="L0G-ha-1ll"/>
+                            <constraint firstItem="Bp7-kB-dzK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="344" id="NfH-b1-uzb"/>
+                            <constraint firstItem="MDS-95-3qN" firstAttribute="top" secondItem="qde-w6-n57" secondAttribute="bottom" constant="40" id="PdP-VX-vo1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wvM-cL-zN8" secondAttribute="bottom" constant="318" id="XlT-Wb-ifi"/>
+                            <constraint firstItem="Bp7-kB-dzK" firstAttribute="centerX" secondItem="wvM-cL-zN8" secondAttribute="centerX" id="quL-O7-i5B"/>
+                            <constraint firstItem="Bp7-kB-dzK" firstAttribute="top" secondItem="MDS-95-3qN" secondAttribute="bottom" constant="44" id="rWX-2m-r4c"/>
+                            <constraint firstItem="qde-w6-n57" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uk5-nS-l3e"/>
+                            <constraint firstItem="MDS-95-3qN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="396" id="uxQ-nO-nNa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="effectsButton" destination="wvM-cL-zN8" id="eb6-Xf-bBd"/>
+                        <outlet property="improvementButton" destination="Bp7-kB-dzK" id="6Ge-UR-Vbl"/>
+                        <outlet property="problemsButton" destination="qde-w6-n57" id="fed-99-itb"/>
+                        <outlet property="scienceTitle" destination="8bC-Xf-vdC" id="gjB-bF-jOr"/>
+                        <outlet property="structureButton" destination="MDS-95-3qN" id="aWe-q9-LQi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142.77777777777777" y="138.5185185185185"/>
+        </scene>
+        <!--Breathing View Controller-->
+        <scene sceneID="ahz-2W-YXs">
+            <objects>
+                <viewController id="BI9-hw-asG" customClass="BreathingViewController" customModule="science_is_cool" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w67-T1-OKw">
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How does breathing occur?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVi-W4-fcn">
+                                <rect key="frame" x="76" y="0.0" width="561" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qjk-Dg-vlY">
+                                <rect key="frame" x="126" y="259" width="460" height="253"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Breathing happens in two stages: inhalation and exhalation. Inhalation is when the lungs take in air. Exhalation is when the lungs expel air. The diaphragm muscle and rib muscles are constantly shrinking and relaxing, thus causing the chest cavity to increase and decrease. Breathing happens passively without (usually) the need to think about breathing.</string>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBo-lE-lgC">
+                                <rect key="frame" x="281" y="671" width="151" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Learn More">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="learnMorePressed:" destination="BI9-hw-asG" eventType="touchUpInside" id="2tm-oX-xKJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50617834449999999" green="0.84499577859999997" blue="0.98986726999999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="R9m-Qf-v54"/>
+                    </view>
+                    <connections>
+                        <outlet property="learnMoreButton" destination="qBo-lE-lgC" id="OUr-MO-im2"/>
+                        <outlet property="respiratoryText" destination="Qjk-Dg-vlY" id="0oO-IP-94a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XYM-kV-bgF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="882.77777777777771" y="239.99999999999997"/>
+        </scene>
+        <!--Problems View Controller-->
+        <scene sceneID="a2R-dO-czQ">
+            <objects>
+                <viewController id="mSa-ai-Se3" customClass="ProblemsViewController" customModule="science_is_cool" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RGZ-qF-Dpx">
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the Respiratory System?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l64-8U-6WC">
+                                <rect key="frame" x="65" y="0.0" width="603" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50617834449999999" green="0.84499577859999997" blue="0.98986726999999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dc0-iH-H1V">
+                                <rect key="frame" x="281" y="671" width="163" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Learn More">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="websiteButtonPressed:" destination="mSa-ai-Se3" eventType="touchUpInside" id="Knb-ot-VDh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTj-mh-roH">
+                                <rect key="frame" x="151" y="254" width="431" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">The respiratory system is the group of organs in your body that allows you to breathe. The respiratory system is essential for humans to live. This includes the lungs, nose, mouth and other parts of your body. The respiratory is a system of complicated airways and parts that allow air to pass through from the atmosphere into your body.</string>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50617834449999999" green="0.84499577859999997" blue="0.98986726999999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Bgo-L1-35m"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="A9N-PS-rgS"/>
+                    <connections>
+                        <outlet property="learnMoreButton" destination="Dc0-iH-H1V" id="uS2-ZO-2AL"/>
+                        <outlet property="respiratoryText" destination="zTj-mh-roH" id="O9T-r8-2al"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ETt-KO-NnU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="883" y="-1072"/>
+        </scene>
+        <!--Solution View Controller-->
+        <scene sceneID="Ktd-Su-TCa">
+            <objects>
+                <viewController id="ZD1-SW-yKe" customClass="SolutionViewController" customModule="science_is_cool" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Nq-0I-2rd">
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What are the lungs?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uyv-im-Vam">
+                                <rect key="frame" x="55" y="0.0" width="603" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50617834449999999" green="0.84499577859999997" blue="0.98986726999999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvF-Az-Kog">
+                                <rect key="frame" x="133" y="265" width="449" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">The lungs are two spongy organs located either side of the chest. The trachea (the windpipe that connects your nose and mouth) lets air travel through to your lungs. Inside of the lungs are small tubes called bronchi and smaller ones called bronchioles, before finally ending up at the alveoli, microscopic air sacs that pass through air to your blood.</string>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Gh-4x-2Gl">
+                                <rect key="frame" x="275" y="671" width="163" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Learn More">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="learnMorePressed:" destination="ZD1-SW-yKe" eventType="touchUpInside" id="PrV-vJ-buN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50617834449999999" green="0.84499577859999997" blue="0.98986726999999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="0Xw-bM-DoX"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KKh-Ex-Eyx"/>
+                    <connections>
+                        <outlet property="learnMoreButton" destination="3Gh-4x-2Gl" id="yRY-HV-bq8"/>
+                        <outlet property="respiratoryText" destination="xvF-Az-Kog" id="XrB-II-o5s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dqb-g3-YYt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="882.77777777777771" y="-402.22222222222217"/>
+        </scene>
+        <!--Gas View Controller-->
+        <scene sceneID="eUf-yA-XHB">
+            <objects>
+                <viewController id="s5C-OX-hhR" customClass="GasViewController" customModule="science_is_cool" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d0N-WL-cxs">
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="770"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is Gas Exchange?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taI-lG-FKo">
+                                <rect key="frame" x="76" y="0.0" width="561" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5z-Sv-hg2">
+                                <rect key="frame" x="281" y="671" width="151" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Learn More">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="learnMorePressed:" destination="s5C-OX-hhR" eventType="touchUpInside" id="qrk-WJ-mSG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IM0-wO-OND">
+                                <rect key="frame" x="126" y="248" width="460" height="274"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Gas exchange is the process that exchanges oxygen and carbon dioxide in your blood. The air from the atmosphere travels through your airways, into the lungs, then into your alveoli. The oxygen then goes into your blood stream, travels to the heart then is pumped to the rest of the body. The carbon dioxide then goes into the alveoli, through your airways then out into the atmosphere.</string>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50617834449999999" green="0.84499577859999997" blue="0.98986726999999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="P1U-q6-yCf"/>
+                    </view>
+                    <connections>
+                        <outlet property="learnMoreButton" destination="Y5z-Sv-hg2" id="bpB-Lg-eSc"/>
+                        <outlet property="respiratoryText" destination="IM0-wO-OND" id="tFU-jg-wLY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bGb-iq-yr3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="882.77777777777771" y="892.5925925925925"/>
+        </scene>
+    </scenes>
+</document>
